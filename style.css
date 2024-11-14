@@ -156,7 +156,8 @@ z-index: 10;
   font-size: 48px;
 }
 .faqbox{
-  background-color: gray;
+  transition: all 1s ease-in;
+  background-color: #2d2d2d;
   display: flex;
   padding: 24px;
   max-width: 60vw;
@@ -165,6 +166,29 @@ z-index: 10;
   cursor: pointer;
 }
 .faqbox:hover{
-  background-color: rgb(43, 40, 40);
+  background-color: #414141
 }
-
+footer{
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  padding: 14px;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color:white;
+}
+.questions{
+  padding: 34px 0px;
+}
+.footer-item{
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+footer a{
+text-decoration: none;
+color: white;
+font-size: 14px;
+}
